@@ -2,8 +2,7 @@
 //  SceneDelegate.swift
 //  iosDevelopment_Assignment3
 //
-//  Created by Yinpeng on 09/05/2022.
-//
+//  
 
 import UIKit
 
@@ -17,13 +16,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        UserManager.loadUserFromCache()
         let window = UIWindow(windowScene: windowScene)
         
         
         let storyboard1 = UIStoryboard.init(name: "Main", bundle: nil);
         let vc = storyboard1.instantiateViewController(identifier: "ViewController")
-        let mainVC = UserManager.isLogin ? FXTabBarController() : FXNavController(rootViewController: vc)
+        let mainVC = FXNavController(rootViewController: vc)
                window.rootViewController = mainVC
                self.window = window
                window.makeKeyAndVisible()

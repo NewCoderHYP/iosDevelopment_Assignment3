@@ -2,9 +2,7 @@
 //  BaseViewController.swift
 //  iosDevelopment_Assignment3
 //
-//  Created by Yinpeng on 10/05/2022.
 //
-
 import UIKit
 
 class BaseViewController: UIViewController {

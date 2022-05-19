@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  iosDevelopment_Assignment3
 //
-//  Created by Yinpeng on 09/05/2022.
-//
+//  
 
 import UIKit
 

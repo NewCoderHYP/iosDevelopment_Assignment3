@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="MoveOn" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="iosDevelopment_Assignment3" customModuleProvider="target">
             <connections>
                 <outlet property="accountFld" destination="iMY-eE-OXm" id="tyr-C1-QrE"/>
                 <outlet property="passwordFld" destination="f9m-0J-o1T" id="FeC-mw-ZJg"/>
@@ -49,7 +49,7 @@
                         <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="ylE-UG-98Q"/>
                     </connections>
                 </button>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iMY-eE-OXm">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Account" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iMY-eE-OXm">
                     <rect key="frame" x="40" y="132" width="334" height="54"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="54" id="7GB-mP-4UW"/>

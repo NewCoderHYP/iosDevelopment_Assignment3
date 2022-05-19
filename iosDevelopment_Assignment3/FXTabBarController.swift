@@ -12,8 +12,8 @@ class FXTabBarController: UITabBarController, UITabBarControllerDelegate {
 
         self.addChildsVC()
         
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor:(UIColor.hex( "#666666"))], for: .normal)
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor:(UIColor.hex("#4B81FF"))], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor:(UIColor.init(red: 102 / 255, green: 102 / 255, blue: 102 / 255, alpha: 1.0))], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor:(UIColor.init(red: 75 / 255, green: 128 / 255, blue: 253 / 255, alpha: 1.0))], for: .selected)
         
         self.delegate = self
         

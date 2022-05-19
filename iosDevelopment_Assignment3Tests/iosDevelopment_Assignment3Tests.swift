@@ -2,8 +2,7 @@
 //  MoveOnTests.swift
 //  MoveOnTests
 //
-//  Created by Yinpeng on 09/05/2022.
-//
+//  
 
 import XCTest
 @testable import MoveOn

@@ -2,8 +2,7 @@
 //  MoveOnUITestsLaunchTests.swift
 //  MoveOnUITests
 //
-//  Created by Yinpeng on 09/05/2022.
-//
+//  
 
 import XCTest
 
